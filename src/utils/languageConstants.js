@@ -63,6 +63,86 @@ const lang = {
         search : "tìm kiếm",
         gptSearchPlaceholder : "hôm nay bạn muốn xem gì?"
     },
+    bengali : {
+        search : "অনুসন্ধান",
+        gptSearchPlaceholder : "আপনি কি অনুসন্ধান করতে চান?"
+    },
+    bhojpuri : {
+        search : "तलाशी",
+        gptSearchPlaceholder : "का खोजल चाहत बानी?"
+    },
+    gujrati: {
+        search : "શોધ",
+        gptSearchPlaceholder : "તમે શું શોધવા માંગો છો?"
+    },
+    kannada : {
+        search : "ಹುಡುಕಿ Kannada",
+        gptSearchPlaceholder : "ನೀವು ಏನು ಹುಡುಕಲು ಬಯಸುತ್ತೀರಿ?"
+    },
+    maithili : {
+        search : "खोजनाइ",
+        gptSearchPlaceholder : "की खोजय चाहैत छी?"
+    },
+    malayalam : {
+        search : "തിരയുക",
+        gptSearchPlaceholder : "നിങ്ങൾക്ക് എന്താണ് തിരയേണ്ടത്?"
+    },
+    marathi : {
+        search : "शोध",
+        gptSearchPlaceholder : "तुम्हाला काय शोधायचे आहे?"
+    },
+    odia : {
+        search : "ସନ୍ଧାନ",
+        gptSearchPlaceholder : "ଆପଣ କଣ ଖୋଜିବାକୁ ଚାହୁଁଛନ୍ତି?"
+    },
+    persian : {
+        search : "جستجو کردن",
+        gptSearchPlaceholder : "چه چیزی را می خواهید جستجو کنید؟"
+    },
+    punjabi : {
+        search : "ਖੋਜ",
+        gptSearchPlaceholder : "ਤੁਸੀਂ ਕੀ ਖੋਜਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+    },
+    sanskrit : {
+        search : "अन्वेषण",
+        gptSearchPlaceholder : "किं अन्वेष्टुम् इच्छसि ?"
+    },
+    sindhi : {
+        search : "ڳولا",
+        gptSearchPlaceholder : "توهان ڇا ڳولڻ چاهيو ٿا؟"
+    },
+    tamil : {
+        search : "தேடல்",
+        gptSearchPlaceholder : "நீங்கள் என்ன தேட விரும்புகிறீர்கள்?"
+    },
+    telugu : {
+        search : "వెతకండి",
+        gptSearchPlaceholder : "మీరు ఏమి శోధించాలనుకుంటున్నారు?"
+    },
+    ukrainian: {
+        search : "пошук",
+        gptSearchPlaceholder : "що ти хочеш шукати?"
+    },
+    urdu : {
+        search : "تلاش کریں",
+        gptSearchPlaceholder : "آپ کیا تلاش کرنا چاہتے ہیں؟"
+    },
+    uyghur : {
+        search : "ئىزدەش",
+        gptSearchPlaceholder : "نېمىنى ئىزدەيسىز؟"
+    },
+    latin : {
+        search : "Quaerere",
+        gptSearchPlaceholder : "quid vis quaerere?"
+    },
+    pastho : {
+        search : "لټون",
+        gptSearchPlaceholder : "تاسو څه شی لټون کول غواړئ؟"
+    },
+    slovak : {
+        search : "Vyhľadávanie",
+        gptSearchPlaceholder : "čo chceš hľadať?"
+    },
 
 
 }
