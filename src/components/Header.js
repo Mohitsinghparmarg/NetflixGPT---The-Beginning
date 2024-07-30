@@ -50,7 +50,9 @@ const Header = () => {
          navigate("/")
       }
     });
+    
    return () => unsubscribe();
+   // eslint-disable-next-line
   },[]);
 
     const handleGptSearchclick = () => {

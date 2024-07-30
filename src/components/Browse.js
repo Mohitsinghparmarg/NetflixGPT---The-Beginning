@@ -18,6 +18,7 @@ const Browse = () => {
       useMysteryMovies();
       
 
+      
   return (
     <div>
       <Header/>
@@ -27,20 +28,6 @@ const Browse = () => {
                  <SecondaryContainer/>
              </>
       )}
-    
-     {
-      /*
-        MainContainer
-          - VideoBackground
-          - VideoTitle
-        SecondaryContainer
-          - MovieList*n
-             - cards*n
-      */
-     }
-
-
-
     </div>
   )
 }
