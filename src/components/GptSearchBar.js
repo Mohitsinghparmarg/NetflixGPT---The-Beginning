@@ -28,7 +28,7 @@ const GptSearchBar = () => {
 
   const handleGptSearchClick = async () => {
     try {
-      console.log(searchText.current.value);
+      
       const model = await genAI.getGenerativeModel({ model: "gemini-pro" });
       const query = `Act as a Movie Recommendation system and suggest some movies for the query: ${searchText.current.value}. Only give me names of 5 Movies, comma separated like the example result given ahead. Example Result: KGF CHAPTER 2,SALAAR, BAHUBALI, PK, KGF CHAPTER 1`;
       const result = await model.generateContent(query);
@@ -36,7 +36,6 @@ const GptSearchBar = () => {
       const movies = text ? text.split(",") : [];
       const bardResults = await Promise.all(movies.map((movie) => searchMovie(movie)));
       dispatch(addGptMovieResult({ movieNames: movies, movieResults: bardResults }));
-      console.log(result.response?.candidates[0]?.content?.parts);
     } catch (error) {
       console.error("Error during GPT search:", error);
     }
