@@ -16,9 +16,6 @@ const Browse = () => {
       useUpcomingMovies();
       useTopRatedMovies();
       useMysteryMovies();
-      
-
-      
   return (
     <div>
       <Header/>
